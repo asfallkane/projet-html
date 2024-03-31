@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 99vh;
+    width: 99vw;
+    background-color: #f1f1f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteneur{
+    border-radius: 15px;
+    height: 40%;
+    width: 30%;
+    padding: 1.5%;
+    background-color: #fff;
+}
+.email{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 210, 217);
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    color: rgb(253, 107, 129);
+    border-radius: 5px;
+}
+.adresse{
+    margin-top: 5%;
+    width: 100%;
+    height: 30%;
+}
+.first{
+    display: flex;
+    margin-top: 7%;
+}
+.eem{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    margin-top: 2%;
+    border: none;
+    border: 1px gray solid;
+    padding-left: 1%;
+}
+.eem:focus {
+    outline: none; /* Supprime la bordure par défaut lors du focus */
+}
+
+.password{
+    margin-top: 3%;
+    width: 100%;
+    height: 30%;
+}
+.second{
+    display: flex;
+    margin-top: 7%;
+}
+.ep{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    border: none;
+    border: 1px gray solid;
+    padding-left: 1%;
+    margin-top: 2%;
+}
+.ep:focus {
+    outline: none; /* Supprime la bordure par défaut lors du focus */
+}
+.fa-asterisk{
+    position: relative;
+    color: red;
+    left: 1%;
+    top: 0;
+    font-size: 10px;
+}
+#ledeux{
+    position: relative;
+    top: -43%;
+    left: 26%;
+}
+.fa-eye-slash{
+    position: relative;
+    bottom: 35%;
+    left: 92%;
+}
+.quest{
+    margin-top: 1.5%;
+    display: flex;
+    width: 30%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    justify-content: space-between;
+}
+.quest1{
+    display: flex;
+}
+.rm{
+    position: relative;
+    left: 3%;
+    color: gray;
+    font-size: 20px;
+}
+.mpo{
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: 300;
+}
+.lienpro{
+    width: 30%;
+    margin-top: 1%;
+    height: 8%;
+}
+.cnx{
+    width: 100%;
+    height: 100%;
+    color: white; 
+    background-color: darkcyan; 
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none; 
+}
+.cnx:hover{
+    background-color: darkcyan;
+    border: 2px solid black;
+}
+.logo{
+    height: 10%;
+    width: 30%;
+    margin-bottom: 0.4%;
+    margin-left: 5%;
+}
+.logo img{
+    height: 100%;
+}
+
+

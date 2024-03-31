@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/157f16265d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d2ba3c872c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="promos.css">
+    <title>Document</title>
+</head>
+<body>
+  <input type="checkbox" id="sidebar-toggle" class="sidebar-checkbox">
+
+  <div id="sidebar" class="sidebar">
+    <label for="sidebar-toggle" class="sidebar-toggle-btn">&#9776;</label>
+    <div class="sidebar-header">
+      <img src="../images/logo-sidebar.png" alt="">
+    </div>
+    <ul class="sidebar-menu">
+      <h4>__MENU</h4>
+      <ul class="sidebar-menu">
+        <li><a href="#"><i class="fa fa-align-right" aria-hidden="true"></i> <span>Dashboard</span></a></li>
+        <li><a href="#"><i class="fa fa-list-alt" aria-hidden="true"></i> <span>Promos</span></a></li>
+        <li><a href="#"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i><span>Référentiels</span></a></li>
+        <li><a href="#"><i class="fa-regular fa-user"></i> <span>Utilisateurs</span></a></li>
+        <li><a href="#"><i class="fa-regular fa-user"></i> <span>Visiteurs</span></a></li>
+        <li><a href="#"><i class="fa-regular fa-user"></i><span>Presence</span></a></li>
+        <li><a href="#"><i class="fa-regular fa-calendar"></i> <span>Evenements</span></a></li>
+      </ul>
+    </ul>
+  </div>
+
+  <div class="content">
+      <div class="header">
+            <div class="head1">
+                <label for="sidebar-toggle" class="hamburger-btn">&#9776;</label>
+                <i class="fa-solid fa-border-all"></i>
+                <div class="search-bar">
+                  <input type="text" placeholder="Rechercher par matricule...">
+                  <i class="fa fa-search"></i>
+                </div>
+            </div>
+            <div class="head2">
+                  <div class="date-jour">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    </i><span id="date" data-date="30 Mars 2024"></span>
+                </div>
+                <div class="user">
+                  <img src="../images/moi.jpeg" alt="" id="pp">
+                  <div class="supad">
+                      <div class="haut">SUPER_ADMIN</div>
+                      <div class="bas">
+                            <select name="lutilisateur">
+                              <option class="admin">Admin Admin</option>
+                            </select>
+                      </div>
+                  </div>
+                </div>  
+            </div>
+            
+              
+             
+      </div>
+      <div class="main-content">
+          <div class="bloc1">
+              <p class="un">Promotions</p>
+              <p class="deux">Promos • Creation </p>
+          </div>
+          <div class="bloc2">
+                <div class="gauche">
+                    <div class="rond1">1</div>
+                    <div class="ligne"></div>
+                    <div class="rond2">2</div>
+                </div>
+                <div class="droite">
+                    <div class="col1">Promotion</div>
+                    <div class="col2">
+                        <p class="libel">Libelle</p>
+                        <input class="tlibel" placeholder="Entrer le libelle *" type="text" tabindex="1" required autofocus>
+                    </div>
+                    <div class="col3">
+                        <div class="parg">
+                          <p class="libelg">Date Debut</p>
+                          <input class="tlibel" placeholder="MM/DD/YYYY*" type="date"  required autofocus>
+                        </div>
+                        <div class="pard">
+                          <p class="libeld">Date fin</p>
+                          <input class="tlibel" placeholder="salut" type="date" tabindex="1" required autofocus>
+                        </div>
+                    </div>
+                    <div class="col4">
+                      <a href="selecref.html" id="ajref">
+                        <button class="ajref">Ajouter Référentiel(s)</button>
+                      </a>
+                      <a href="" id="creprom">
+                        <button class="creprom">Créer Promotion</button>
+                      </a>
+                    </div>
+                    <div class="col5">
+                      <h3>Référentiels</h3>
+                    </div>
+              </div>
+          </div>
+          <div class="footer">
+            <i class="far fa-copyright"></i> <p class="sa">Sonatel Academy</p>
+          </div>
+      </div>
+  </div>
+  <div class="fixed-icon">
+    <i class="fa-solid fa-gear"></i>
+  </div>
+</body>
+</html>
